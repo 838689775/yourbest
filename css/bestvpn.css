@@ -1,0 +1,17 @@
+#pagemain{
+	padding-top: 60px;
+}
+@media only screen and (min-width: 768px) {
+	
+	#custom_html-7.active{
+		top: 10px;
+		 width: 244px; 
+		 position: fixed;
+	}
+	
+	#toc-widget-3.active{
+		top: 10px;
+		 width: 244px; 
+		 position: fixed;
+	}
+}
