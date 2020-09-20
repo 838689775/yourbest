@@ -1,5 +1,27 @@
+body{
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
 #pagemain{
 	padding-top: 60px;
+}
+.gray-back{
+	position: relative;
+	top: 20px;
+    padding: 10px 8px 10px 8px;
+
+}
+.yellow-bar-back {
+
+
+    padding: 10px 8px 10px 8px;
+    }
+    
+@media only screen and (max-width: 768px) {
+	
+    #right-sidebar{
+    	display: none;
+    }
 }
 @media only screen and (min-width: 768px) {
 	
@@ -10,7 +32,7 @@
 	}
 	
 	#toc-widget-3.active{
-		top: 10px;
+		top: 40px;
 		 width: 244px; 
 		 position: fixed;
 	}

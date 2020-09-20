@@ -58,8 +58,16 @@ function initDlHref() {
 			$(".add-btn").show();
 		});
 	})
+	
 }
 
 $(document).ready(function() {
 	initDlHref();
+	
+	$(".panda-link").attr("href", "https://www.panhdpe.xyz/r/20539801")
+	$(".express-link").attr("href", "https://www.expressvpn.com/")
+	$(".nord-link").attr("href", "nord")
+	$(".vypr-link").attr("href", "http://www.vyprvpn.com/")
+	$(".pure-link").attr("href", "https://billing.purevpn.com/aff.php?aff=44363")
+	$(".ivacy-link").attr("href", "https://billing.ivacy.com/page/93108")
 })
