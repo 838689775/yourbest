@@ -1,6 +1,5 @@
 body{
-	overflow-x: hidden;
-	overflow-y: scroll;
+	overflow: hidden;
 }
 #pagemain{
 	padding-top: 60px;
